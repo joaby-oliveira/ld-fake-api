@@ -6,15 +6,10 @@ const server = jsonServer.create()
 const router = jsonServer.router(path.join(__dirname, 'db.json'))
 const middlewares = jsonServer.defaults()
 
-server.use(cors({
-  origin: "http://localhost:4200"
-}))
+server.use(cors())
 server.use(jsonServer.bodyParser)
 server.use(middlewares)
 server.use(router)
 
-const PORT = 3000
-
-server.listen(PORT, () => {
-  console.log(`JSON Server is running on http://localhost:${PORT}`)
-})
+const PORT = process.env.PORT || 4000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
