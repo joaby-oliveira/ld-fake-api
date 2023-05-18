@@ -1,0 +1,373 @@
+{
+  "collaborator": [
+    {
+      "fullName": "M. White",
+      "cpf": "99999999999",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "fullName": "João Alves",
+      "cpf": "000.000.000-21",
+      "id_department": "2",
+      "department": "Comercial",
+      "id_role": "4",
+      "role": "Gerente de vendas"
+    },
+    {
+      "id": 9,
+      "fullName": "João Alves",
+      "cpf": "000.000.000-21",
+      "id_department": "2",
+      "department": "Comercial",
+      "id_role": "4",
+      "role": "Gerente de vendas"
+    },
+    {
+      "fullName": "asiod",
+      "cpf": "91238192083",
+      "department": "Financeiro",
+      "role": "dasd",
+      "id": 10
+    },
+    {
+      "fullName": "asiod",
+      "cpf": "91238192083",
+      "department": "Financeiro",
+      "role": "dasd",
+      "id": 11
+    },
+    {
+      "fullName": "asdj;kj",
+      "cpf": "10982309182",
+      "department": "RH",
+      "role": "1p23iu09",
+      "id": 12
+    },
+    {
+      "fullName": "aslkd",
+      "cpf": "12309102398",
+      "department": "Comercial",
+      "role": "asd",
+      "id": 13
+    },
+    {
+      "fullName": "jalkd",
+      "cpf": "12931023912",
+      "department": "RH",
+      "role": "dasd",
+      "id": 14
+    },
+    {
+      "fullName": "alsdj",
+      "cpf": "12312123123",
+      "department": "RH",
+      "role": "kasjdlk",
+      "id": 15
+    },
+    {
+      "fullName": "jasdkj",
+      "cpf": "13940128309",
+      "department": "RH",
+      "role": "a;lsld",
+      "id": 16
+    },
+    {
+      "fullName": "asdasd",
+      "cpf": "12312333333",
+      "department": "RH",
+      "role": "zxczxc",
+      "id": 17
+    },
+    {
+      "fullName": "Dono",
+      "cpf": "91283023123",
+      "id": 18
+    },
+    {
+      "cpf": "92130192301",
+      "fullName": "dalskjd",
+      "id": 19
+    },
+    {
+      "cpf": "12313331231",
+      "fullName": "1asdasd",
+      "id": 20
+    },
+    {
+      "fullName": "ASDd",
+      "cpf": "12331231333",
+      "department": "Rh",
+      "role": "sdaasd",
+      "id": 21
+    }
+  ],
+  "department": [
+    {
+      "name": "asddfds",
+      "id": 5
+    },
+    {
+      "name": "Rh",
+      "id": 6
+    },
+    {
+      "name": "Financeiro",
+      "id": 7
+    },
+    {
+      "name": "asjdkj",
+      "id": 8
+    },
+    {
+      "name": "departamento",
+      "id": 9
+    }
+  ],
+  "role": [
+    {
+      "id": 1,
+      "id_department": 1,
+      "name": "Analista"
+    },
+    {
+      "id": 2,
+      "id_department": 1,
+      "name": "Suporte"
+    },
+    {
+      "id": 3,
+      "id_department": 1,
+      "name": "Especialista"
+    },
+    {
+      "id": 4,
+      "id_department": 2,
+      "name": "Gerente Comercial"
+    },
+    {
+      "id": 5,
+      "id_department": 2,
+      "name": "Sales trainer"
+    }
+  ],
+  "company": [
+    {
+      "corporateName": "Empresa",
+      "cnpj": "12312333333123",
+      "id_owner": 18,
+      "id": 1
+    },
+    {
+      "corporateName": "Empresa 1",
+      "cnpj": "19238102938011",
+      "id_owner": 18,
+      "id": 2
+    }
+  ],
+  "holder": [
+    {
+      "name": "Estagiário",
+      "id": 1
+    },
+    {
+      "name": "Dono",
+      "id": 5
+    }
+  ],
+  "process": [
+    {
+      "title": "Baixa de funcionário",
+      "department": "departamento",
+      "description": "Lorem ipsum dolor sit amet consectetur",
+      "id": 1
+    },
+    {
+      "title": "Reeas",
+      "department": "Financeiro",
+      "description": "ASDA gg aa qq ttt",
+      "id": 10
+    }
+  ],
+  "question": [
+    {
+      "title": "Finalidade de coleta",
+      "description": "sei la",
+      "videoUrl": "https://www.youtube.com/watch?v=AgrMYgHtvNQ",
+      "selectable": true,
+      "category": "Titular",
+      "options": ["asdasd", "asdasdd"],
+      "slug": "finalidade-de-coleta",
+      "id": 2
+    },
+    {
+      "title": "Titulo de captalizacao",
+      "description": "alk",
+      "videoUrl": "https://www.youtube.com/watch?v=AgrMYgHtvNQ",
+      "selectable": null,
+      "category": "Dadossdf",
+      "options": [],
+      "slug": "titulo-de-captalizacao",
+      "id": 4
+    }
+  ],
+  "mapping": [
+    {
+      "holder": "Estagiário",
+      "holderOther": "ASdajsjdkjaskd lakdkaksdk kkasdkasdkk",
+      "process": "Baixa de funcionário",
+      "finalidade-de-coleta": "ALSKDASdjk",
+      "titulo-de-captalizacao": "MEM",
+      "id": 1
+    },
+    {
+      "holder": "Estagiário",
+      "holderOther": "AAA",
+      "process": "Baixa de funcionário",
+      "finalidade-de-coleta": "11223344",
+      "titulo-de-captalizacao": "ADSADS",
+      "status": "aguardando-analise",
+      "id": 2
+    }
+  ],
+  "category": [
+    {
+      "name": "Dadossdf",
+      "id": 1
+    },
+    {
+      "name": "Titular",
+      "id": 2
+    }
+  ],
+  "dashboard": [
+    {
+      "id_company": 1,
+      "risks": 10,
+      "impact": [
+        {
+          "name": "Baixo",
+          "value": 1,
+          "extra": {
+            "code": "baixo"
+          }
+        },
+        {
+          "name": "Médio",
+          "value": 2,
+          "extra": {
+            "code": "medio"
+          }
+        },
+        {
+          "name": "Alto",
+          "value": 1,
+          "extra": {
+            "code": "alto"
+          }
+        },
+        {
+          "name": "Muito alto",
+          "value": 1,
+          "extra": {
+            "code": "muito-alto"
+          }
+        }
+      ],
+      "probability": [
+        {
+          "name": "Improvável",
+          "value": 1,
+          "extra": {
+            "code": "improvavel"
+          }
+        },
+        {
+          "name": "Pouco provável",
+          "value": 2,
+          "extra": {
+            "code": "pouco-provavel"
+          }
+        },
+        {
+          "name": "Provável",
+          "value": 1,
+          "extra": {
+            "code": "provavel"
+          }
+        },
+        {
+          "name": "Muito provável",
+          "value": 1,
+          "extra": {
+            "code": "muito-provavel"
+          }
+        }
+      ]
+    },
+    {
+      "id_company": 2,
+      "risks": 10,
+      "impact": [
+        {
+          "name": "Baixo",
+          "value": 1,
+          "extra": {
+            "code": "baixo"
+          }
+        },
+        {
+          "name": "Médio",
+          "value": 2,
+          "extra": {
+            "code": "medio"
+          }
+        },
+        {
+          "name": "Alto",
+          "value": 1,
+          "extra": {
+            "code": "alto"
+          }
+        },
+        {
+          "name": "Muito alto",
+          "value": 1,
+          "extra": {
+            "code": "muito-alto"
+          }
+        }
+      ],
+      "probability": [
+        {
+          "name": "Improvável",
+          "value": 1,
+          "extra": {
+            "code": "improvavel"
+          }
+        },
+        {
+          "name": "Pouco provável",
+          "value": 2,
+          "extra": {
+            "code": "pouco-provavel"
+          }
+        },
+        {
+          "name": "Provável",
+          "value": 1,
+          "extra": {
+            "code": "provavel"
+          }
+        },
+        {
+          "name": "Muito provável",
+          "value": 1,
+          "extra": {
+            "code": "muito-provavel"
+          }
+        }
+      ]
+    }
+  ]
+}
